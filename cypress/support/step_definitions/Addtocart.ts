@@ -31,7 +31,9 @@ Given('I am in the automation practice home page and i serach for black dresses'
     
     
   Then('I should be able to proceed to checkout page',()=>{
-    cy.get('.cart_navigation > .button > span').click();
+   cy.get('.cart_navigation > .button > span').click();
     cy.screenshot();
+    myAssertion();
+    cy.get('.page-heading').should('contain','Authentication');
   
   })
