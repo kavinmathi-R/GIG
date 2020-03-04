@@ -1,0 +1,35 @@
+Difficulties faced:
+
+1.I am really new to the tools testcafe or cypress.So intially it was difficukt to identify the dependencies needed for the tools in order to enable the BDD framework.
+2.Most of the examples on internet are with Javascript and to learn the difference between typescript and Javascript
+
+
+How to install: softwares needed
+
+
+    1.Node.js and NPM(By default package inside Node.js)
+    \\Make sure node -v returns valid version of Nodejs after successfull installation
+    \\Make sure npm -v returns valid version of NPM
+
+    2.Install cypress using the below command
+    \\npm install cypress --save-dev
+
+    3.Install Typescript using the below command
+    \\npm install -g typescript
+
+    4.Install Cucumber preprocessor using below command
+    \\npm install --save-dev cypress-cucumber-preprocessor
+
+    5.Install Webpack preprocessor using below command
+    \\npm install --save-dev @cypress/webpack-preprocessor
+
+How to build the testscript:
+    In order to build testscript make sure your feature file is under the Integration folder under cypress.
+    The feature file name and the step definition file name should be same.  
+
+How to run the testscripts:
+
+    User can use the cypress "TestRunner" to run the testscripts.
+    Open the cypress tool and select the appropriate feature from the test runner and click it.
+
+
