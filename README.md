@@ -1,4 +1,4 @@
-# Example Logina nd Addtocart functionality test
+# Example Login and Addtocart functionality test
 
 Projcet dependencies -  Cypress cucumber preprocessor and webpack preprocessor
 
